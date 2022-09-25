@@ -1,54 +1,126 @@
-*{padding: 0px;box-sizing: border-box;margin: 0px;font-family: cursive;
+* {
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: cursive;
 }
 
-ul{list-style: none;}
+ul {
+    list-style: none;
+}
 
-a{text-decoration: none;}
+a {
+    text-decoration: none;
+}
 
 
 
 /* header */
 
-.header-index{background-color: black;color: white;}
+.header-index {
+    background-color: black;
+    color: white;
+}
 
-.header__tittle{text-align: center;padding: 5px;}
+.header__tittle {
+    text-align: center;
+    padding: 5px;
+}
 
-.header-nav ul{display: flex;padding: 5px;justify-content: space-around;}
+.header-nav ul {
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+}
 
-.header-nav ul li{padding: 5px;text-align: center;}
+.header-nav ul li {
+    padding: 5px;
+    text-align: center;
+}
 
 
-.nav-buscador{padding: 5px;border-radius: 20px;}
+.nav-buscador {
+    padding: 5px;
+    border-radius: 20px;
+}
 
 
 
 /* main  */
 
 
-.main-index{background-color: red;height: 50vh;}
+.main-index {
+    background-color: white;
+    height: 50vh;
+}
 
 
 /* footer */
 
-footer{height:50vh;background-color: black;color: white;padding: 5px;text-align: center;}
+footer {
+    height: fit-content;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
 
-.iframe-map{border-radius: 20px;padding: 5px;width: 200px;}
+footer section p {
+    padding: 10px;
+}
+
+.iframe-map {
+    border-radius: 20px;
+    padding: 5px;
+    width: 200px;
+}
+
+.bi-facebook {
+    padding: 10px;
+}
+
+.bi-instagram {
+    padding: 10px;
+}
+
+.bi-github {
+    padding: 10px;
+}
+
+.ubicacion{grid-area: ubicacion;}
+.redes{grid-area: redes;}
+.derechos{grid-area: derechos;}
 
 
 /*  media queris */
 
 @media (min-width:760px) {
 
-    .header-index{display: flex;padding: 15px;justify-content:space-between;align-items: center;}
+    .header-index {
+        display: flex;
+        padding: 15px;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-    .header-nav{width: 70%;}
+    .header-nav {
+        width: 70%;
+    }
 
-}
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 80% auto;
+        grid-template-areas:
+        "ubicacion redes"
+        "derechos derechos";
+    }
 
+    .footer{display: flex;justify-content:space-between;}
 
+    
+    .redes{display: flex;flex-direction: column;}
 
-
-
-
-
-
+    .derechos{background-color: grey;border-radius: 10px;}
+    
+    }
