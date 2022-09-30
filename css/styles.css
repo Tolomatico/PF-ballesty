@@ -2,7 +2,7 @@
     padding: 0px;
     box-sizing: border-box;
     margin: 0px;
-    font-family: cursive;
+    font-family:roboto mono,sans-serif;
 }
 
 ul {
@@ -89,9 +89,12 @@ footer section p {
     padding: 10px;
 }
 
+
 .ubicacion{grid-area: ubicacion;}
 .redes{grid-area: redes;}
 .derechos{grid-area: derechos;}
+
+
 
 
 /*  media queris */
@@ -126,3 +129,5 @@ footer section p {
     .derechos{background-color: grey;border-radius: 10px;}
     
     }
+
+   
