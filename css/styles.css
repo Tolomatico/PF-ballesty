@@ -23,6 +23,22 @@ ul {text-decoration: none;
     transition: all 300ms;
 }
 
+.comprar{color: black;
+    transition: all 100ms;
+    text-decoration: none;
+}
+
+.comprar:hover {
+    color: white;
+    border: 2px  rgba(0, 0, 255, 0.700);
+    background-color: rgba(0, 0, 255, 0.700);
+    padding: 5px;
+    border-radius: 20px;
+   
+}
+
+
+
 
 
 
@@ -76,16 +92,6 @@ ul {text-decoration: none;
     padding: 5px;
     border-radius: 20px;
 }
-
-
-
-/* main  */
-
-
-
-
-
-
 
 
 /* footer */
@@ -210,7 +216,7 @@ li i:hover {
 /* Contacto CSS */
 
 .main-contacto {
-    height: 60vh;
+    height: 70vh;
 }
 
 
@@ -240,16 +246,15 @@ li i:hover {
     width: 100%;
     height: 110px;
     background: black;
+    
+    
   }
 
-
-  
   .square {
     width: 100%;
     height: 100px;
     background: black;
-    
-    
+   
   }
 
   
@@ -258,16 +263,17 @@ li i:hover {
   
   .slider{
     position: absolute;
-    animation: slider 5s infinite linear alternate;
+    animation: slider 2s infinite linear alternate;
+    
    
   }
   
   @keyframes slider {
     from {
-      transform: translate(-75%, 0);
+      transform: translate(0, 0);
     }
     to {
-      transform: translate(75%, 0);
+      transform: translate(45%, 0);
     } 
    
   }
