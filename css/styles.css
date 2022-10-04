@@ -258,15 +258,16 @@ li i:hover {
   
   .slider{
     position: absolute;
-    animation: slider 3s infinite linear alternate;
+    animation: slider 5s infinite linear alternate;
    
   }
   
   @keyframes slider {
     from {
-      transform: translate(0%, 0);
+      transform: translate(-75%, 0);
     }
     to {
-      transform: translate(90%, 0);
-    }
+      transform: translate(75%, 0);
+    } 
+   
   }
