@@ -3,8 +3,10 @@
     box-sizing: border-box;
     margin: 0px;
     font-family: roboto mono, sans-serif;
+    
 
 }
+
 
 ul {text-decoration: none;
     list-style: none;
@@ -100,12 +102,15 @@ footer {height: fit-content;
     background-color: rgba(0, 0, 255, 0.700);
     color: white;
     padding: 20px;
+    
     text-align: center;
 }
 
 footer section p {
     padding: 10px;
 }
+
+
 
 
 
@@ -137,7 +142,7 @@ li i {
 }
 
 li i:hover {
-    font-size: 2rem;
+   
     color: rgb(0, 0, 0)
 }
 
@@ -152,7 +157,7 @@ li i:hover {
     grid-area: redes;
 }
 
-.derechos {
+.derechos {margin-top: 20px;
     grid-area: derechos;
 }
 
@@ -174,7 +179,7 @@ li i:hover {
         width: 60%;
     }
 
-    footer {
+    footer {height: fit-content;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 80% auto;
@@ -192,9 +197,10 @@ li i:hover {
     .redes {
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
     }
 
-    .derechos {
+    .derechos {margin-top: 10px;
         background-color: grey;
         border-radius: 10px;
     }
@@ -208,17 +214,16 @@ li i:hover {
 /* Nuestra empresa CSS */
 
 
-.main-nuestraempresa {
+.nosotros{
     height: 50vh;
 }
 
 
 /* Contacto CSS */
 
-.main-contacto {
-    height: 70vh;
-}
 
+.enviar{margin: 5px;}
+.borrar{margin: 5px;}
 
 .enviar:hover {padding: 4px;
     color: black;
@@ -241,17 +246,18 @@ li i:hover {
 
 /* sponsor css */
 
+
+
 .sponsor{
+   
     
-    width: 100%;
-    height: 110px;
+    height: 100px;
     background: black;
     
     
   }
 
   .square {
-    width: 100%;
     height: 100px;
     background: black;
    
@@ -263,7 +269,7 @@ li i:hover {
   
   .slider{
     position: absolute;
-    animation: slider 2s infinite linear alternate;
+    animation: slider 5s infinite linear;
     
    
   }
@@ -273,7 +279,7 @@ li i:hover {
       transform: translate(0, 0);
     }
     to {
-      transform: translate(45%, 0);
+      transform: translate(100%, 0);
     } 
    
   }
