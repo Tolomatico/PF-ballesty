@@ -1,0 +1,285 @@
+* {
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: roboto mono, sans-serif;
+    
+
+}
+
+
+ul {text-decoration: none;
+    list-style: none;
+}
+
+
+
+.a {
+    color: white;
+    text-decoration: none;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+    transition: all 300ms;
+}
+
+.comprar{color: black;
+    transition: all 100ms;
+    text-decoration: none;
+}
+
+.comprar:hover {
+    color: white;
+    border: 2px  rgba(0, 0, 255, 0.700);
+    background-color: rgba(0, 0, 255, 0.700);
+    padding: 5px;
+    border-radius: 20px;
+   
+}
+
+
+
+
+
+
+/* header */
+
+
+/*  header hover */
+.links:hover {
+    transform: scale(1.1);
+    color: rgb(6, 0, 125);
+}
+
+
+
+
+.header-index {
+    background-color: rgba(0, 0, 255, 0.700);
+    color: white;
+}
+
+.header__tittle {
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+
+
+
+.header-nav ul {
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+
+}
+
+.head-nav ul:hover {
+    transform: scale(1.1);
+}
+
+.header-nav ul li {
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+
+.nav-buscador {
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
+/* footer */
+
+footer {height: fit-content;
+    background-color: rgba(0, 0, 255, 0.700);
+    color: white;
+    padding: 20px;
+    
+    text-align: center;
+}
+
+footer section p {
+    padding: 10px;
+}
+
+
+
+
+
+.iframe-map {
+    border-radius: 20px;
+    width: 200px;
+}
+
+
+.bi-facebook {
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+
+
+.bi-instagram {
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.bi-github {
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+li i {
+    transition: all 300ms;
+}
+
+li i:hover {
+   
+    color: rgb(0, 0, 0)
+}
+
+
+
+
+.ubicacion {
+    grid-area: ubicacion;
+}
+
+.redes {
+    grid-area: redes;
+}
+
+.derechos {margin-top: 20px;
+    grid-area: derechos;
+}
+
+
+
+
+/*  media queris */
+
+@media (min-width:760px) {
+
+    .header-index {
+        display: flex;
+        padding: 15px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-nav {
+        width: 60%;
+    }
+
+    footer {height: fit-content;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 80% auto;
+        grid-template-areas:
+            "ubicacion redes"
+            "derechos derechos";
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .redes {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .derechos {margin-top: 10px;
+        background-color: grey;
+        border-radius: 10px;
+    }
+
+}
+
+
+
+
+
+/* Nuestra empresa CSS */
+
+
+.nosotros{
+    height: 50vh;
+}
+
+
+/* Contacto CSS */
+
+
+.enviar{margin: 5px;}
+.borrar{margin: 5px;}
+
+.enviar:hover {padding: 4px;
+    color: black;
+    background-color: green;
+   border: none;
+    border-radius: 10px;
+
+
+}
+
+.borrar:hover {padding: 4px;
+    color: black;
+    background-color: red;
+   border: none;
+    border-radius: 10px;
+
+
+}
+
+
+/* sponsor css */
+
+
+
+.sponsor{
+   
+    
+    height: 100px;
+    background: black;
+    
+    
+  }
+
+  .square {
+    height: 100px;
+    background: black;
+   
+  }
+
+  
+  
+  /* Animacion */
+  
+  .slider{
+    position: absolute;
+    animation: slider 5s infinite linear;
+    
+   
+  }
+  
+  @keyframes slider {
+    from {
+      transform: translate(0, 0);
+    }
+    to {
+      transform: translate(100%, 0);
+    } 
+   
+  }
