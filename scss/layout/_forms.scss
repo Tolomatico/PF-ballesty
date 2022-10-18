@@ -1,29 +1,59 @@
 /* Contacto CSS */
 
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 15px;
+   
+}
 
-.enviar{margin: 5px;
-    
-    
-    &:hover {padding: 4px;
-    color: black;
-    background-color: green;
-   border: none;
+.formulario {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    padding-top: 15px;
+    max-width: 650px;
+    background-color: $color-1;
+    color: $color-2;
+
+}
+
+label{margin: 10px;}
+input{margin: 10px;}
+
+.enviar {padding: 2px;
+    margin: 5px;
     border-radius: 10px;
 
+
+    &:hover {
+        
+        color: $color-2;
+        background-color: green;
+        border: none;
+        padding: 4px;       
+
+    }
 }
-}
 
 
-.borrar{margin: 5px;
-
-
-
-&:hover {padding: 4px;
-    color: black;
-    background-color: red;
-   border: none;
+.borrar {
+    margin: 5px;
+    padding: 2px;
     border-radius: 10px;
 
-}
-}
 
+
+    &:hover {
+       
+        color: $color-2;
+        background-color: red;
+        border: none;
+        padding: 4px;
+        
+       
+
+    }
+}

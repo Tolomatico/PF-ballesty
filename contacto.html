@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
-    <title>Contacto</title>
+    <title> GamingHouse | Contacto</title>
 </head>
 
 <body>
@@ -32,10 +32,10 @@
                 <div class="collapse navbar-collapse d-lg-flex justify-content-lg-evenly navegador"  id="navbarNav">
                     <ul class="navbar-nav text-center navegador">
                         <li class="nav-item">
-                            <a class=" links" aria-current="page" href="./categorias.html">Categorías</a>
+                            <a class=" links" aria-current="page" href="./Monitores.html">Monitores</a>
                         </li>
                         <li class="nav-item">
-                            <a class=" links" href="./armatupc.html">Armá tu pc</a>
+                            <a class=" links" href="./televisores.html">Televisores</a>
                         </li>
                         <li class="nav-item">
                             <a class=" links" href="./nuestraempresa.html">Quienes somos</a>
@@ -59,29 +59,31 @@
 
     <main>
 
-        <form action="" class="container mt-3 mb-3 d-flex flex-column align-items-center shadow-lg pb-5">
+        <form action="" class="container shadow-lg">
+
+            <section class="formulario d-flex flex-column align-items-center">
 
 
-            <label class="mb-2" for="nombre-usuario">Nombre y apellido:</label>
-            <input class="mb-2" type="text" id="nombre-usuario" name="nombre-usuario"
+            <label  for="nombre-usuario">Nombre y apellido:</label>
+            <input  type="text" id="nombre-usuario" name="nombre-usuario"
                 placeholder="Nombre y apellido">
-            <label class="mb-2" for="mail-usuario">email:</label>
-            <input class="mb-2" type="email" id="mail-usuario" name="mail-usuario" placeholder="ejemplo@gmail.com">
+            <label  for="mail-usuario">email:</label>
+            <input  type="email" id="mail-usuario" name="mail-usuario" placeholder="ejemplo@gmail.com">
 
 
             <div></div>
 
-            <label class="mb-2" for="mail-motivo">Comentarios:</label>
+            <label  for="mail-motivo">Comentarios:</label>
 
-            <div>
+            
 
-                <label for="comentario"></label>
-                <textarea name="comentario" id="comentario" cols="30" rows="5"></textarea>
+                
+                <textarea  name="comentario" id="comentario" cols="20" rows="5"></textarea>
 
-            </div>
+            
 
-            <label class="mb-2 w-50 text-center" for="notificaciones">Desea recibir notificaciones por mail?</label>
-            <input class="mb-2 w-50" type="checkbox" id="notificaciones" value="si-recibir-notificaciones">
+            <label class="text-center" for="notificaciones">Desea recibir notificaciones por mail?</label>
+            <input  type="checkbox" id="notificaciones" value="si-recibir-notificaciones">
 
             
             <div class="text-center d-flex">
@@ -93,6 +95,8 @@
                         <input class="borrar" type="reset" value="borrar">
                     </div>
             </div>
+
+        </section>
 
 
         </form>

@@ -1,0 +1,46 @@
+.section__tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    padding: 10px;
+
+    @media (min-width:760px){
+
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+
+    
+    
+}
+
+.tarjeta {
+    margin: 5px;
+    border: solid 2px black;
+    border-radius: 15px;
+    width: 200px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2px;
+
+
+    .boton {
+        color: $color-2;
+        background-color: $color-1;
+        border-radius: 10px;
+        padding: 2px;
+        text-decoration: none;
+        border: solid $color-1 1px;
+        
+
+    }
+
+}

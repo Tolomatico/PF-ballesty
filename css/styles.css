@@ -5,18 +5,15 @@
 }
 
 ul {
-  text-decoration: none;
   list-style: none;
-}
-ul li {
-  text-decoration: none;
-}
-ul li a {
-  text-decoration: none;
 }
 
 * {
   font-family: roboto mono, sans-serif;
+}
+
+h2 {
+  text-align: center;
 }
 
 .header-index {
@@ -40,26 +37,54 @@ ul li a {
   }
 }
 /* Contacto CSS */
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 15px;
+}
+
+.formulario {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  padding-top: 15px;
+  max-width: 650px;
+  background-color: rgba(0, 0, 255, 0.7);
+  color: white;
+}
+
+label {
+  margin: 10px;
+}
+
+input {
+  margin: 10px;
+}
+
 .enviar {
+  padding: 2px;
   margin: 5px;
+  border-radius: 10px;
 }
 .enviar:hover {
-  padding: 4px;
-  color: black;
+  color: white;
   background-color: green;
   border: none;
-  border-radius: 10px;
+  padding: 4px;
 }
 
 .borrar {
   margin: 5px;
+  padding: 2px;
+  border-radius: 10px;
 }
 .borrar:hover {
-  padding: 4px;
-  color: black;
+  color: white;
   background-color: red;
   border: none;
-  border-radius: 10px;
+  padding: 4px;
 }
 
 .links {
@@ -70,6 +95,20 @@ ul li a {
 .links:hover {
   transform: scale(1.1);
   color: black;
+}
+
+.comprar {
+  color: rgba(0, 0, 255, 0.7);
+  transition: all 100ms;
+  text-decoration: none;
+}
+.comprar:hover {
+  color: white;
+  background-color: rgba(0, 0, 255, 0.7);
+  border-radius: 10px;
+  padding: 2px;
+  text-decoration: none;
+  border: solid rgba(0, 0, 255, 0.7) 1px;
 }
 
 /* Animacion */
@@ -97,6 +136,10 @@ ul li a {
     transform: translate(100%, 0);
   }
 }
+img {
+  min-width: 150px;
+}
+
 /* footer */
 footer {
   height: fit-content;
@@ -104,9 +147,11 @@ footer {
   color: white;
   padding: 20px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-footer section p {
+footersection p {
   padding: 10px;
 }
 
@@ -176,24 +221,44 @@ li i:hover {
   }
 }
 .nosotros {
-  height: 70vh;
+  height: 50vh;
 }
 
-.categorias .Placasdevideo {
-  font-size: 3rem;
-}
-
-.categorias .procesadores {
-  font-size: 3rem;
-}
-
-.categorias {
-  background-color: yellow;
-  height: fit-content;
+.section__tarjeta {
   display: flex;
-  flex-direction: row;
-  padding: 20px;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  padding: 10px;
+}
+@media (min-width: 760px) {
+  .section__tarjeta {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.tarjeta {
+  margin: 5px;
+  border: solid 2px black;
+  border-radius: 15px;
+  width: 200px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2px;
+}
+.tarjeta .boton {
+  color: white;
+  background-color: rgba(0, 0, 255, 0.7);
+  border-radius: 10px;
+  padding: 2px;
+  text-decoration: none;
+  border: solid rgba(0, 0, 255, 0.7) 1px;
 }
 
 /*# sourceMappingURL=styles.css.map */
