@@ -1,0 +1,100 @@
+/* footer */
+
+footer {height: fit-content;
+    background-color: rgba(0, 0, 255, 0.700);
+    color: white;
+    padding: 20px;
+    
+    text-align: center;
+}
+
+footer section p {
+    padding: 10px;
+}
+
+
+
+
+
+.iframe-map {
+    border-radius: 20px;
+    width: 200px;
+}
+
+
+.bi-facebook {
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+
+
+.bi-instagram {
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.bi-github {
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+li i {
+    transition: all 300ms;
+}
+
+li i:hover {
+   
+    color: rgb(0, 0, 0)
+}
+
+
+
+
+.ubicacion {
+    grid-area: ubicacion;
+}
+
+.redes {
+    grid-area: redes;
+}
+
+.derechos {margin-top: 20px;
+    grid-area: derechos;
+}
+
+
+
+
+/*  media queris */
+
+@media (min-width:760px) {
+
+  
+    footer {height: fit-content;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 80% auto;
+        grid-template-areas:
+            "ubicacion redes"
+            "derechos derechos";
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .redes {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .derechos {margin-top: 10px;
+        background-color: grey;
+        border-radius: 10px;
+    }
+
+}

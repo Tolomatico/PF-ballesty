@@ -2,7 +2,6 @@
   padding: 0px;
   box-sizing: border-box;
   margin: 0px;
-  font-family: roboto mono, sans-serif;
 }
 
 ul {
@@ -14,6 +13,10 @@ ul li {
 }
 ul li a {
   text-decoration: none;
+}
+
+* {
+  font-family: roboto mono, sans-serif;
 }
 
 .header-index {
@@ -36,6 +39,29 @@ ul li a {
     justify-content: space-around;
   }
 }
+/* Contacto CSS */
+.enviar {
+  margin: 5px;
+}
+.enviar:hover {
+  padding: 4px;
+  color: black;
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+}
+
+.borrar {
+  margin: 5px;
+}
+.borrar:hover {
+  padding: 4px;
+  color: black;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+}
+
 .links {
   text-decoration: none;
   color: white;
@@ -44,6 +70,130 @@ ul li a {
 .links:hover {
   transform: scale(1.1);
   color: black;
+}
+
+/* Animacion */
+/* sponsor css */
+.sponsor {
+  height: 100px;
+  background: black;
+}
+
+.square {
+  height: 100px;
+  background: black;
+}
+
+.slider {
+  position: absolute;
+  animation: slider 5s infinite linear;
+}
+
+@keyframes slider {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(100%, 0);
+  }
+}
+/* footer */
+footer {
+  height: fit-content;
+  background-color: rgba(0, 0, 255, 0.7);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer section p {
+  padding: 10px;
+}
+
+.iframe-map {
+  border-radius: 20px;
+  width: 200px;
+}
+
+.bi-facebook {
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+.bi-instagram {
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+.bi-github {
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+li i {
+  transition: all 300ms;
+}
+
+li i:hover {
+  color: rgb(0, 0, 0);
+}
+
+.ubicacion {
+  grid-area: ubicacion;
+}
+
+.redes {
+  grid-area: redes;
+}
+
+.derechos {
+  margin-top: 20px;
+  grid-area: derechos;
+}
+
+/*  media queris */
+@media (min-width: 760px) {
+  footer {
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80% auto;
+    grid-template-areas: "ubicacion redes" "derechos derechos";
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .derechos {
+    margin-top: 10px;
+    background-color: grey;
+    border-radius: 10px;
+  }
+}
+.nosotros {
+  height: 70vh;
+}
+
+.categorias .Placasdevideo {
+  font-size: 3rem;
+}
+
+.categorias .procesadores {
+  font-size: 3rem;
+}
+
+.categorias {
+  background-color: yellow;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  justify-content: space-around;
 }
 
 /*# sourceMappingURL=styles.css.map */

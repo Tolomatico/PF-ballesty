@@ -18,37 +18,34 @@
 <body>
     <!-- Comienzo del header -->
 
-    <header class="header-index pb-1">
+    <header class=" header-index ">
 
-        <div>
+       
 
-
-            <a href="./index.html" class="links">
-                <h1 class="header__tittle links">GamingHouse</h1>
-            </a>
-
-        </div>
-
-        <nav class="header-nav">
-
-
-            <ul>
-                <a href="./categorias.html" class="links">
-                    <li>Categorías</li>
-                </a>
-                <a href="./armatupc.html" class="links">
-                    <li>Armá tu pc</li>
-                </a>
-                <a href="./nuestraempresa.html" class="links">
-                    <li>Nuestra empresa</li>
-                </a>
-                <a href="./contacto.html" class="links">
-                    <li>Contacto</li>
-                </a>
-            </ul>
-
-
-
+        <nav class="container navbar navbar-expand-lg header-nav">
+            <div class="container-fluid d-flex justify-content-evenly ">
+                <a class="navbar-brand" href="./index.html"><h1 class="links">GamingHouse</h1></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-lg-flex justify-content-lg-evenly navegador"  id="navbarNav">
+                    <ul class="navbar-nav text-center navegador">
+                        <li class="nav-item">
+                            <a class=" links" aria-current="page" href="./categorias.html">Categorías</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" links" href="./armatupc.html">Armá tu pc</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" links" href="./nuestraempresa.html">Quienes somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="links" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
 
 
@@ -66,10 +63,10 @@
 
 
             <label class="mb-2" for="nombre-usuario">Nombre y apellido:</label>
-            <input class="mb-2 w-50 w-lg-25" type="text" id="nombre-usuario" name="nombre-usuario"
+            <input class="mb-2" type="text" id="nombre-usuario" name="nombre-usuario"
                 placeholder="Nombre y apellido">
             <label class="mb-2" for="mail-usuario">email:</label>
-            <input class="mb-2 w-50" type="email" id="mail-usuario" name="mail-usuario" placeholder="ejemplo@gmail.com">
+            <input class="mb-2" type="email" id="mail-usuario" name="mail-usuario" placeholder="ejemplo@gmail.com">
 
 
             <div></div>
