@@ -29,5 +29,20 @@
         padding: 2px;
 
 
-    }   
+    }
+}
+
+
+.monitor {
+    background-image: url(/assets/monitor.jpg);
+    width: 150px;
+    height: 120px;
+    background-size: contain ;
+
+
+    &:hover {
+        background-image: url(/assets/monitorodyssey.png);
+    }
+
+
 }

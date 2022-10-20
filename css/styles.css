@@ -257,4 +257,14 @@ li i:hover {
   padding: 2px;
 }
 
+.monitor {
+  background-image: url(/assets/monitor.jpg);
+  width: 150px;
+  height: 120px;
+  background-size: contain;
+}
+.monitor:hover {
+  background-image: url(/assets/monitorodyssey.png);
+}
+
 /*# sourceMappingURL=styles.css.map */
