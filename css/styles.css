@@ -258,13 +258,13 @@ li i:hover {
 }
 
 .monitor {
-  background-image: url(/assets/monitor.jpg);
+  background-image: url(https://i.ibb.co/HCNVYdQ/monitor.png);
   width: 150px;
   height: 120px;
   background-size: contain;
 }
 .monitor:hover {
-  background-image: url(/assets/monitorodyssey.png);
+  background-image: url(https://i.ibb.co/nkp1wSS/monitorodyssey.png);
 }
 
 /*# sourceMappingURL=styles.css.map */

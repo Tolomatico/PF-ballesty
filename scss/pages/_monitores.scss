@@ -34,15 +34,15 @@
 
 
 .monitor {
-    background-image: url(/assets/monitor.jpg);
+    background-image: url(https://i.ibb.co/HCNVYdQ/monitor.png);
     width: 150px;
     height: 120px;
     background-size: contain ;
 
+    &:hover{background-image: url(https://i.ibb.co/nkp1wSS/monitorodyssey.png);}
+    
 
-    &:hover {
-        background-image: url(/assets/monitorodyssey.png);
-    }
 
+   
 
 }
