@@ -267,4 +267,14 @@ li i:hover {
   background-image: url(https://i.ibb.co/nkp1wSS/monitorodyssey.png);
 }
 
+.televisor1 {
+  background-image: url(https://i.ibb.co/C5jBkCB/tv1.jpg);
+  width: 150px;
+  height: 120px;
+  background-size: contain;
+}
+.televisor1:hover {
+  background-image: url(https://i.ibb.co/B20hW7t/tv12.jpg);
+}
+
 /*# sourceMappingURL=styles.css.map */
