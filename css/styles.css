@@ -132,13 +132,12 @@ input {
 .square {
   display: inline-block;
   height: 100px;
-  width: 800px;
   background: black;
 }
 
 .slider {
   position: absolute;
-  animation: slider 8s infinite linear;
+  animation: slider 5s infinite linear;
 }
 
 /* Animacion */
@@ -147,7 +146,7 @@ input {
     transform: translate(0, 0);
   }
   to {
-    transform: translate(100%, 0);
+    transform: translate(100vw, 0);
   }
 }
 img {

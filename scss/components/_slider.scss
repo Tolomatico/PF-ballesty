@@ -1,63 +1,50 @@
-
-
-
 /* sponsor css */
 
 
 
-.sponsor{
-   
-    
-    height: 100px;
-    position: relative;
-    background: black;
-    overflow: hidden;
-    
-    
-  }
-
-  .square {display: inline-block;
-    height: 100px;
-    width: 800px;
-    background: black;
-    
-   
-  }
-
-  
-.slider{
-    position: absolute;
-    animation: slider 8s infinite linear;
-    
-   
-  }
-
-  
+.sponsor {
 
 
+  height: 100px;
+  position: relative;
+  background: $color-3;
+  overflow: hidden;
 
-
-
-
-  /* Animacion */
-
-
-
-  
-  
-  @keyframes slider {
-    from {
-      transform: translate(0, 0);
-    }
-    to {
-      transform: translate(100%, 0);
-    } 
-   
-  }
-
-
-  img {
-    min-width: 150px;
 
 }
 
+.square {
+  display: inline-block;
+  height: 100px;
+  background: $color-3;
+
+
+}
+
+
+.slider {
+  position: absolute;
+  animation: slider 5s infinite linear;
+
+
+}
+
+/* Animacion */
+
+
+@keyframes slider {
+  from {
+    transform: translate(0, 0);
+  }
+
+  to {
+    transform: translate(100vw, 0);
+  }
+
+}
+
+
+img {
+  min-width: 150px;
+
+}
