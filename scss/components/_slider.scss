@@ -9,26 +9,41 @@
    
     
     height: 100px;
+    position: relative;
     background: black;
+    overflow: hidden;
     
     
   }
 
-  .square {
+  .square {display: inline-block;
     height: 100px;
+    width: 800px;
     background: black;
+    
    
   }
 
   
 .slider{
     position: absolute;
-    animation: slider 5s infinite linear;
+    animation: slider 8s infinite linear;
     
    
   }
 
+  
+
+
+
+
+
+
   /* Animacion */
+
+
+
+  
   
   @keyframes slider {
     from {
@@ -39,6 +54,7 @@
     } 
    
   }
+
 
   img {
     min-width: 150px;
