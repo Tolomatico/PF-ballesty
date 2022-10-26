@@ -25,6 +25,10 @@ p {
   font-weight: bold;
 }
 
+.h5 {
+  font-weight: bold;
+}
+
 .header-index {
   background-color: rgba(0, 0, 255, 0.7);
   padding: 15px;
@@ -223,13 +227,34 @@ li i:hover {
     justify-content: space-around;
   }
   .derechos {
-    margin-top: 10px;
     background-color: grey;
     border-radius: 10px;
   }
+  .derechos p {
+    margin: 10px;
+  }
 }
 .nosotros {
-  height: 50vh;
+  height: fit-content;
+  padding: 10px;
+  margin: 10px;
+}
+.nosotros-tittle {
+  text-align: center;
+  font-size: 2rem;
+  padding: 15px;
+}
+.nosotros-parrafo {
+  padding: 10px;
+  margin: 10px;
+}
+@media (min-width: 768px) {
+  .nosotros {
+    height: 40vh;
+  }
+  .nosotros-title {
+    text-align: start;
+  }
 }
 
 .section__tarjeta {
@@ -244,6 +269,7 @@ li i:hover {
   .section__tarjeta {
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 30px;
   }
 }
 .section__tarjeta .tarjeta {
