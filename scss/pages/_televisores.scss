@@ -1,17 +1,72 @@
 .televisor1 {
-    background-image: url(https://i.ibb.co/C5jBkCB/tv1.jpg);
+    background-image: url(https://i.ibb.co/hZQcGM0/tv1.webp);
     width: 150px;
     height: 120px;
     background-size: contain;
    
-
     &:hover {
-        background-image: url(https://i.ibb.co/B20hW7t/tv12.jpg);
+        background-image: url(https://i.ibb.co/8d50gQT/tv12.webp);
     }
 
+}
+.televisor2 {
+    background-image: url(https://i.ibb.co/cDVCDLq/tv2.webp);
+    width: 150px;
+    height: 120px;
+    background-size:cover;
+    background-position: center;
+    &:hover {
+        
+        background-image: url(https://i.ibb.co/vc546wx/tv22.webp);
+    }
 
+}
 
+.televisor3 {
+    background-image: url(https://i.ibb.co/6RR54r0/tv32.webp);
+    width: 150px;
+    height: 120px;
+    background-size: contain;
+   
+    &:hover {
+        background-image: url(https://i.ibb.co/JRYFwkw/tv3.webp);
+    }
 
+}
+.televisor4 {
+    background-image: url(https://i.ibb.co/61QQH07/tv4.webp);
+    width: 150px;
+    height: 120px;
+    background-size:cover;
+    background-position: center;
+    &:hover {
+        
+        background-image: url(https://i.ibb.co/PrH4DrQ/tv42.webp);
+    }
+
+}
+.televisor5 {
+    background-image: url(https://i.ibb.co/xgr9LnL/tv5.webp);
+    width: 150px;
+    height: 120px;
+    background-size:cover;
+    background-position: center;
+    &:hover {
+        
+        background-image: url(https://i.ibb.co/PT35L3d/tv52.webp);
+    }
+
+}
+.televisor6 {
+    background-image: url(https://i.ibb.co/sPjKfQs/tv6.webp);
+    width: 150px;
+    height: 120px;
+    background-size:cover;
+    background-position: center;
+    &:hover {
+        
+        background-image: url(https://i.ibb.co/hD7Xvvn/tv62.webp);
+    }
 
 }
 

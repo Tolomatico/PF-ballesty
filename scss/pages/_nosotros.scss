@@ -14,13 +14,10 @@
     margin: 10px;}
 
 
-    @media (min-width: 768px) {
+    @media (min-width: 992px) {
         & {
-            height: 40vh;
+            height: 50vh;
 
-            &-title {
-                text-align:start;
-            }
         }
 
 

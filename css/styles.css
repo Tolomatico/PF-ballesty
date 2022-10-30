@@ -25,13 +25,9 @@ p {
   font-weight: bold;
 }
 
-.h5 {
-  font-weight: bold;
-}
-
 .header-index {
   background-color: rgba(0, 0, 255, 0.7);
-  padding: 15px;
+  padding: 5px;
   color: white;
 }
 
@@ -248,12 +244,9 @@ li i:hover {
   padding: 10px;
   margin: 10px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .nosotros {
-    height: 40vh;
-  }
-  .nosotros-title {
-    text-align: start;
+    height: 50vh;
   }
 }
 
@@ -264,12 +257,13 @@ li i:hover {
   align-items: center;
   margin-top: 5px;
   padding: 10px;
+  gap: 40px;
 }
 @media (min-width: 760px) {
   .section__tarjeta {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 80px;
   }
 }
 .section__tarjeta .tarjeta {
@@ -287,23 +281,132 @@ li i:hover {
 }
 
 .monitor {
-  background-image: url(https://i.ibb.co/HCNVYdQ/monitor.png);
+  background-image: url(https://i.ibb.co/85HYC7n/monitor1.webp);
   width: 150px;
   height: 120px;
   background-size: contain;
 }
 .monitor:hover {
-  background-image: url(https://i.ibb.co/nkp1wSS/monitorodyssey.png);
+  background-image: url(https://i.ibb.co/pftB112/monitor12.png);
+}
+
+.monitor2 {
+  background-image: url(https://i.ibb.co/VHtqMrD/m2.webp);
+  width: 150px;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+}
+.monitor2:hover {
+  background-image: url(https://i.ibb.co/XpRYMCS/m22.webp);
+}
+
+.monitor3 {
+  background-image: url(https://i.ibb.co/r4pkCmD/m3.webp);
+  width: 150px;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+}
+.monitor3:hover {
+  background-image: url(https://i.ibb.co/ygV8XFc/m32.webp);
+}
+
+.monitor4 {
+  background-image: url(https://i.ibb.co/KF7JDQr/m4.webp);
+  width: 150px;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+}
+.monitor4:hover {
+  background-image: url(https://i.ibb.co/cQh6j6K/m42.webp);
+}
+
+.monitor5 {
+  background-image: url(https://i.ibb.co/Lx4HTrG/m5.webp);
+  width: 150px;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+}
+.monitor5:hover {
+  background-image: url(https://i.ibb.co/zN7YZCX/m52.webp);
+}
+
+.monitor6 {
+  background-image: url(https://i.ibb.co/Yy6PCQG/m622.png);
+  width: 150px;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+}
+.monitor6:hover {
+  background-image: url(https://i.ibb.co/zffJ9Y0/m62.webp);
 }
 
 .televisor1 {
-  background-image: url(https://i.ibb.co/C5jBkCB/tv1.jpg);
+  background-image: url(https://i.ibb.co/hZQcGM0/tv1.webp);
   width: 150px;
   height: 120px;
   background-size: contain;
 }
 .televisor1:hover {
-  background-image: url(https://i.ibb.co/B20hW7t/tv12.jpg);
+  background-image: url(https://i.ibb.co/8d50gQT/tv12.webp);
+}
+
+.televisor2 {
+  background-image: url(https://i.ibb.co/cDVCDLq/tv2.webp);
+  width: 150px;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+}
+.televisor2:hover {
+  background-image: url(https://i.ibb.co/vc546wx/tv22.webp);
+}
+
+.televisor3 {
+  background-image: url(https://i.ibb.co/6RR54r0/tv32.webp);
+  width: 150px;
+  height: 120px;
+  background-size: contain;
+}
+.televisor3:hover {
+  background-image: url(https://i.ibb.co/JRYFwkw/tv3.webp);
+}
+
+.televisor4 {
+  background-image: url(https://i.ibb.co/61QQH07/tv4.webp);
+  width: 150px;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+}
+.televisor4:hover {
+  background-image: url(https://i.ibb.co/PrH4DrQ/tv42.webp);
+}
+
+.televisor5 {
+  background-image: url(https://i.ibb.co/xgr9LnL/tv5.webp);
+  width: 150px;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+}
+.televisor5:hover {
+  background-image: url(https://i.ibb.co/PT35L3d/tv52.webp);
+}
+
+.televisor6 {
+  background-image: url(https://i.ibb.co/sPjKfQs/tv6.webp);
+  width: 150px;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+}
+.televisor6:hover {
+  background-image: url(https://i.ibb.co/hD7Xvvn/tv62.webp);
 }
 
 /*# sourceMappingURL=styles.css.map */

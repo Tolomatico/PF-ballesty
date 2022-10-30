@@ -5,12 +5,13 @@
     align-items: center;
     margin-top: 5px;
     padding: 10px;
+    gap: 40px;
 
     @media (min-width:760px) {
 
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 30px;
+        gap: 80px;
 
 
     }
@@ -35,13 +36,13 @@
 
 
 .monitor {
-    background-image: url(https://i.ibb.co/HCNVYdQ/monitor.png);
+    background-image: url(https://i.ibb.co/85HYC7n/monitor1.webp);
     width: 150px;
     height: 120px;
     background-size: contain;
 
     &:hover {
-        background-image: url(https://i.ibb.co/nkp1wSS/monitorodyssey.png);
+        background-image: url(https://i.ibb.co/pftB112/monitor12.png);
     }
 
 
@@ -49,4 +50,89 @@
 
 
 }
+
+.monitor2 {
+    background-image: url(https://i.ibb.co/VHtqMrD/m2.webp);
+    width: 150px;
+    height: 120px;
+    background-size:cover;
+    background-position: center;
+    
+    
+
+    &:hover {
+        background-image: url(https://i.ibb.co/XpRYMCS/m22.webp);
+    }
+
+
+
+}
+
+.monitor3 {
+    background-image: url(https://i.ibb.co/r4pkCmD/m3.webp);
+    width: 150px;
+    height: 120px;
+    background-size:cover;
+    background-position: center;
+    
+    
+
+    &:hover {
+        background-image: url(https://i.ibb.co/ygV8XFc/m32.webp);
+    }
+
+
+
+}
+
+.monitor4 {
+    background-image: url(https://i.ibb.co/KF7JDQr/m4.webp);
+    width: 150px;
+    height: 120px;
+    background-size:cover;
+    background-position: center;
+    
+    
+
+    &:hover {
+        background-image: url(https://i.ibb.co/cQh6j6K/m42.webp);
+    }
+
+
+
+}
+.monitor5 {
+    background-image: url(https://i.ibb.co/Lx4HTrG/m5.webp);
+    width: 150px;
+    height: 120px;
+    background-size:cover;
+    background-position: center;
+    
+    
+
+    &:hover {
+        background-image: url(https://i.ibb.co/zN7YZCX/m52.webp);
+    }
+
+
+
+}
+
+.monitor6 {
+    background-image: url(https://i.ibb.co/Yy6PCQG/m622.png);
+    width: 150px;
+    height: 120px;
+    background-size:cover;
+    background-position: center;
+    
+    
+
+    &:hover {
+        background-image: url(https://i.ibb.co/zffJ9Y0/m62.webp);
+    }
+
+
+
+}
+
 
